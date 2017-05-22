@@ -105,7 +105,7 @@ public class FamilyMembersActivity extends AppCompatActivity {
                         // Use the music stream.
                         AudioManager.STREAM_MUSIC,
                         // Request permanent focus.
-                        AudioManager.AUDIOFOCUS_GAIN);
+                        AudioManager.AUDIOFOCUS_GAIN_TRANSIENT);
 
                 if (result == AudioManager.AUDIOFOCUS_REQUEST_GRANTED) {
                     // create and set up media player for the selected word
