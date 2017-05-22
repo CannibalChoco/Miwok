@@ -15,5 +15,7 @@
 <resources>
     <!-- Height and of each list item -->
     <dimen name="list_item_dimensions">88dp</dimen>
+    <!-- Height and of word -->
+    <dimen name="list_item_word">44dp</dimen>
 
 </resources>

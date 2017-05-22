@@ -39,8 +39,7 @@
 
     <style name="MiwokTextStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
-        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/list_item_word</item>
         <item name="android:gravity">bottom</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/category_text</item>
@@ -49,11 +48,19 @@
 
     <style name="DefaultTextStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
-        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/list_item_word</item>
+        <item name="android:layout_below">@id/text_miwok</item>
         <item name="android:gravity">top</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
         <item name="android:textColor">@color/category_text</item>
+    </style>
+
+    <style name="PlayIconStyle">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">16dp</item>
     </style>
 
 
