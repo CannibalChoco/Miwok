@@ -26,6 +26,9 @@
     <!-- Category text color -->
     <color name="category_text">#FFFFFF</color>
 
+    <!-- Tab text color -->
+    <color name="tab_text">#A8A19E</color>
+
     <!-- Background color for the numbers category -->
     <color name="category_numbers">#FD8E09</color>
 
